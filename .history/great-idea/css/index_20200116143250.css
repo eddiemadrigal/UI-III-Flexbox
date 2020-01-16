@@ -370,18 +370,10 @@ article {
 .section4 article {
 	background-color: #fff;
 	border: none;
-	padding: 0;
-}
-
-.section4 article:first-child {
-	padding-right: 20px;
 }
 
 ul.section4-ul {
-	list-style-type: disc;
-	list-style-position: inside;
-	margin-top: 15px;
-	line-height: 1.5;
+	list-style-type: circle;
 }
 
 .services-info-img {

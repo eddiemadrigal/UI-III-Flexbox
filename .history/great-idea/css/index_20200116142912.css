@@ -353,7 +353,7 @@ h2 {
 
 /* main starts here */
 
-.section1, .section2, .section3, .section4 {
+.section1, .section2, .section3 {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 20px;
@@ -369,19 +369,6 @@ article {
 
 .section4 article {
 	background-color: #fff;
-	border: none;
-	padding: 0;
-}
-
-.section4 article:first-child {
-	padding-right: 20px;
-}
-
-ul.section4-ul {
-	list-style-type: disc;
-	list-style-position: inside;
-	margin-top: 15px;
-	line-height: 1.5;
 }
 
 .services-info-img {
