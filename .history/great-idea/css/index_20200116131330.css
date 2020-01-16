@@ -268,18 +268,11 @@ hr.bg-hr {
 
 /* Background modifications end here */
 
-/* HR margin starts here */
-
-hr {
-	margin: 20px 0;
-}
-
-/* HR margin ends here */
-
 /* Start paragraph formatting with Google font */
 
 p {
 	font-family: 'Ibarra Real Nova', serif;
+	font-size: 1.5rem;
 }
 
 /* End paragraph formatting with Google font */
@@ -297,18 +290,19 @@ p {
 
 nav ul {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 }
 
 ul {
 	text-align: center;
 	position: fixed;
-	background-color: rgba(200, 200, 200, .9);
-	top: 11px;
+	background-color: #eee;
+	top: 0;
 	width: 90%;
 }
 
 ul li {
+	
 	padding-top: 20px;
 }
 
@@ -321,21 +315,40 @@ ul li:last-child {
 /* header starts here */
 
 header {
-	margin-top: 80px;
-}
-
-header img {
-	width: 100%;
+	margin: 120px auto 50px;
+	width: 80%;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
 }
 
 h1 {
 	font-family: 'Bangers', cursive;
-	margin-top: 20px;
-	font-size: 1.5rem;
+	font-size: 60px;
 }
 
 h2 {
 	font-family: 'Bangers', cursive;
+}
+
+.header-image {
+	margin-top: 80px;
+}
+
+.header {
+	text-align: center;
+	vertical-align: middle;
+	margin: 0 50px;
+}
+
+.header img {
+	height: 250px;
+}
+
+button {
+	display: block;
+	margin: 10px auto;
+	padding: 5px 25px;
 }
 
 /* header ends here */

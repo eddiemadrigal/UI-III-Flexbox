@@ -268,18 +268,11 @@ hr.bg-hr {
 
 /* Background modifications end here */
 
-/* HR margin starts here */
-
-hr {
-	margin: 20px 0;
-}
-
-/* HR margin ends here */
-
 /* Start paragraph formatting with Google font */
 
 p {
 	font-family: 'Ibarra Real Nova', serif;
+	font-size: 1.5rem;
 }
 
 /* End paragraph formatting with Google font */

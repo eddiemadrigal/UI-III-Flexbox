@@ -268,18 +268,11 @@ hr.bg-hr {
 
 /* Background modifications end here */
 
-/* HR margin starts here */
-
-hr {
-	margin: 20px 0;
-}
-
-/* HR margin ends here */
-
 /* Start paragraph formatting with Google font */
 
 p {
 	font-family: 'Ibarra Real Nova', serif;
+	font-size: 1.5rem;
 }
 
 /* End paragraph formatting with Google font */
@@ -303,8 +296,8 @@ nav ul {
 ul {
 	text-align: center;
 	position: fixed;
-	background-color: rgba(200, 200, 200, .9);
-	top: 11px;
+	background-color: rgba(200, 200, 200, .5);
+	top: 10px;
 	width: 90%;
 }
 
