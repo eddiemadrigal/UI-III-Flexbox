@@ -338,7 +338,7 @@ header {
 header.index {
 	display: flex;
 	justify-content: space-around;
-	margin-top: 100px;
+	margin-top: 90px;
 }
 
 header img {
