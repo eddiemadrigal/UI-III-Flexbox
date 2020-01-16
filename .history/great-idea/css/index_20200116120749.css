@@ -288,10 +288,6 @@ p {
 
 /* nav starts here */
 
-nav ul {
-	display: flex;
-}
-
 ul {
 	text-align: center;
 	position: fixed;
@@ -301,7 +297,7 @@ ul {
 }
 
 ul li {
-	
+	display: inline-block;
 	padding: 10px 45px;
 }
 
@@ -317,7 +313,6 @@ header {
 	margin: 120px auto 50px;
 	width: 80%;
 	text-align: center;
-	display: flex;
 }
 
 h1 {
@@ -330,7 +325,7 @@ h2 {
 }
 
 .header {
-	
+	display: inline-block;
 	text-align: center;
 	vertical-align: middle;
 	margin: 0 50px;
@@ -350,12 +345,8 @@ button {
 
 /* main starts here */
 
-.top-section {
-	display: flex;
-}
-
 .top-section article {
-	
+	display: inline-block;
 	width: 45%;
 	margin: 10px 0 40px;
 }
@@ -368,12 +359,8 @@ button {
 	width: 100%;
 }
 
-.bottom-section {
-	display: flex;
-}
-
 .bottom-section article {
-	
+	display: inline-block;
 	width: 31%;
 	margin: 30px 10px;
 }

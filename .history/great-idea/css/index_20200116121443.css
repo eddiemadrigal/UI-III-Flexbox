@@ -288,8 +288,8 @@ p {
 
 /* nav starts here */
 
-nav ul {
-	display: flex;
+nav {
+	
 }
 
 ul {
@@ -317,7 +317,6 @@ header {
 	margin: 120px auto 50px;
 	width: 80%;
 	text-align: center;
-	display: flex;
 }
 
 h1 {
@@ -350,10 +349,6 @@ button {
 
 /* main starts here */
 
-.top-section {
-	display: flex;
-}
-
 .top-section article {
 	
 	width: 45%;
@@ -366,10 +361,6 @@ button {
 
 .middle-img {
 	width: 100%;
-}
-
-.bottom-section {
-	display: flex;
 }
 
 .bottom-section article {
