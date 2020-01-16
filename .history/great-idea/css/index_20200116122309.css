@@ -223,7 +223,7 @@ a:hover {
 	}
 }
 
-/* CSS animations stop here */
+/*CSS animations stop here */
 
 /* Background modifications start here */
 
@@ -290,7 +290,6 @@ p {
 
 nav ul {
 	display: flex;
-	justify-content: space-evenly;
 }
 
 ul {
@@ -303,11 +302,11 @@ ul {
 
 ul li {
 	
-	padding-top: 20px;
+	padding: 10px 45px;
 }
 
 ul li:last-child {
-	padding: 10px 0;
+	vertical-align: middle;
 }
 
 /* nav ends here */
@@ -319,7 +318,6 @@ header {
 	width: 80%;
 	text-align: center;
 	display: flex;
-	justify-content: space-around;
 }
 
 h1 {
@@ -332,6 +330,7 @@ h2 {
 }
 
 .header {
+	
 	text-align: center;
 	vertical-align: middle;
 	margin: 0 50px;

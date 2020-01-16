@@ -319,7 +319,7 @@ header {
 	width: 80%;
 	text-align: center;
 	display: flex;
-	justify-content: space-around;
+	border: 1px solid red;
 }
 
 h1 {
@@ -332,6 +332,7 @@ h2 {
 }
 
 .header {
+	border: 1px solid red;
 	text-align: center;
 	vertical-align: middle;
 	margin: 0 50px;

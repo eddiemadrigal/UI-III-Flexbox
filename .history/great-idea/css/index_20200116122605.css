@@ -303,11 +303,11 @@ ul {
 
 ul li {
 	
-	padding-top: 20px;
+	padding-top: 10px;
 }
 
 ul li:last-child {
-	padding: 10px 0;
+	vertical-align: middle;
 }
 
 /* nav ends here */
@@ -319,7 +319,6 @@ header {
 	width: 80%;
 	text-align: center;
 	display: flex;
-	justify-content: space-around;
 }
 
 h1 {
@@ -332,6 +331,7 @@ h2 {
 }
 
 .header {
+	
 	text-align: center;
 	vertical-align: middle;
 	margin: 0 50px;

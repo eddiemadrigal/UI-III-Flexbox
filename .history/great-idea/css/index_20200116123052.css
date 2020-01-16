@@ -315,11 +315,8 @@ ul li:last-child {
 /* header starts here */
 
 header {
-	margin: 120px auto 50px;
-	width: 80%;
-	text-align: center;
+	border: 1px solid red;
 	display: flex;
-	justify-content: space-around;
 }
 
 h1 {
@@ -332,6 +329,7 @@ h2 {
 }
 
 .header {
+	
 	text-align: center;
 	vertical-align: middle;
 	margin: 0 50px;
