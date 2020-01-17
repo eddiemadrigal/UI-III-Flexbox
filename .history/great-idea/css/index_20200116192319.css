@@ -329,6 +329,13 @@ a {
 
 /* nav ends here */
 
+p.text-services {
+	color: yellow;
+}
+
+p.text-index {
+	color: green;
+}
 
 /* header starts here */
 
