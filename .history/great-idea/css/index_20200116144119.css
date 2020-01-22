@@ -329,33 +329,14 @@ a {
 
 /* nav ends here */
 
-
 /* header starts here */
 
 header {
 	margin-top: 80px;
 }
 
-header.index {
-	display: flex;
-	justify-content: space-around;
-	margin-top: 100px;
-}
-
 header img {
 	width: 100%;
-}
-
-.header {
-	text-align: center;
-}
-
-.header h1 {
-	font-size: 4rem;
-}
-
-.header img {
-	width: 300px;
 }
 
 h1 {
@@ -371,11 +352,6 @@ h2 {
 /* header ends here */
 
 /* main starts here */
-
-.top-section {
-	display: flex;
-	justify-content: space-between;
-}
 
 .section1, .section2, .section3, .section4 {
 	display: flex;
@@ -398,37 +374,16 @@ article {
 }
 
 .section4 article:first-child {
-	padding-right: 20px;
-}
-
-.top-section article, .bottom-section article {
-	background: #fff;
-	border: none;
+	padding-right: 10px;
 }
 
 ul.section4-ul {
 	list-style-type: disc;
 	list-style-position: inside;
-	margin-top: 15px;
-	line-height: 1.5;
 }
 
 .services-info-img {
 	width: 100%;
-}
-
-.middle-img {
-	width: 100%;
-	margin: 10px 0;
-}
-
-.bottom-section {
-	display: flex;
-	justify-content: space-between;
-}
-
-.bottom-section article:first-child {
-	padding-left: 0;
 }
 
 /* main ends here */

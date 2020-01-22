@@ -329,7 +329,6 @@ a {
 
 /* nav ends here */
 
-
 /* header starts here */
 
 header {
@@ -339,7 +338,6 @@ header {
 header.index {
 	display: flex;
 	justify-content: space-around;
-	margin-top: 100px;
 }
 
 header img {
@@ -425,10 +423,6 @@ ul.section4-ul {
 .bottom-section {
 	display: flex;
 	justify-content: space-between;
-}
-
-.bottom-section article:first-child {
-	padding-left: 0;
 }
 
 /* main ends here */

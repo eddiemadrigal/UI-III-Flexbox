@@ -329,7 +329,6 @@ a {
 
 /* nav ends here */
 
-
 /* header starts here */
 
 header {
@@ -339,7 +338,6 @@ header {
 header.index {
 	display: flex;
 	justify-content: space-around;
-	margin-top: 100px;
 }
 
 header img {
@@ -383,6 +381,10 @@ h2 {
 	margin-bottom: 20px;
 }
 
+article.article-index {
+	background-color: fff;
+}
+
 article {
 	border: 1px solid #444;
 	border-radius: 4px;
@@ -401,11 +403,6 @@ article {
 	padding-right: 20px;
 }
 
-.top-section article, .bottom-section article {
-	background: #fff;
-	border: none;
-}
-
 ul.section4-ul {
 	list-style-type: disc;
 	list-style-position: inside;
@@ -420,15 +417,6 @@ ul.section4-ul {
 .middle-img {
 	width: 100%;
 	margin: 10px 0;
-}
-
-.bottom-section {
-	display: flex;
-	justify-content: space-between;
-}
-
-.bottom-section article:first-child {
-	padding-left: 0;
 }
 
 /* main ends here */
